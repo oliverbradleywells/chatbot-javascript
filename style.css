@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+  
+  body {
+    background: aqua
+  }
+  
+  .chat {
+    width: 25rem;
+    background: white;
+    margin: 4rem auto;
+    border-radius: 4px;
+    min-height: 4rem;
+    padding: 1rem;
+  }
+  
+  .message {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+  
+  .message--remote {
+    flex-direction: row;
+  }
+  
+  .message--local {
+    flex-direction: row-reverse;
+  }
+  
+  .message__head {
+    flex: 0 0 auto;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .message__text {
+    flex: 0 0 auto;
+    max-width: 14rem;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .message--local .message__text {
+    background: blue;
+    color: white;
+  }
+  
+  .message--remote .message__text {
+    background: #ddd;
+  }
+
+
+
+
+
+  /* html {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+  
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.man {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.woman {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  justify-items: right;
+}
+
+.btn-like {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: white;   
+  width: 10rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  color: red;
+}
+
+  .chat {
+    width: 25rem;
+    background: white;
+    margin: 4rem auto;
+    border-radius: 4px;
+    min-height: 4rem;
+    padding: 1rem;
+  }
+  
+  .message {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+  
+  .message--remote {
+    flex-direction: row;
+  }
+  
+  .message--local {
+    flex-direction: row-reverse;
+  }
+  
+  .message__head {
+    flex: 0 0 auto;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .message__text {
+    flex: 0 0 auto;
+    max-width: 14rem;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .message--local .message__text {
+    background: blue;
+    color: white;
+  }
+  
+  .message--remote .message__text {
+    background: #ddd;
+  }
+  
+  .btn-like--liked {
+    background-color: red;
+  } */
